@@ -13,4 +13,16 @@ bool isempty()
  else
  return false;
 }
-
+//function to insert element in queue
+void enqueue ( int value )
+{
+ if (rear == SIZE-1)
+  cout<<"Queue is full \n";
+ else
+ {
+  if( front == -1)
+   front = 0;
+  rear++;
+  A[rear] = value;
+ }
+}
