@@ -14,6 +14,7 @@ bool isempty()
  return false;
 }
 //function to insert element in queue
+//function to insert element in queue
 void enqueue ( int value )
 {
  if (rear == SIZE-1)
@@ -26,3 +27,4 @@ void enqueue ( int value )
   A[rear] = value;
  }
 }
+
