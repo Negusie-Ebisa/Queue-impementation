@@ -14,7 +14,6 @@ bool isempty()
  return false;
 }
 //function to insert element in queue
-//function to insert element in queue
 void enqueue ( int value )
 {
  if (rear == SIZE-1)
@@ -27,4 +26,14 @@ void enqueue ( int value )
   A[rear] = value;
  }
 }
-
+//function to remove element from queue
+void dequeue ( )
+{
+ if( isempty() )
+  cout<<"Queue is empty\n";
+ else
+ if( front == rear )
+  front = rear = -1;
+ else
+  front++;
+}
