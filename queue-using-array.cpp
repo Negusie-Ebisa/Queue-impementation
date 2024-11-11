@@ -37,3 +37,11 @@ void dequeue ( )
  else
   front++;
 }
+//function to display element at front
+void showfront( )
+{
+ if( isempty())
+  cout<<"Queue is empty\n";
+ else
+  cout<<"element at front is:"<<A[front]<<"\n";
+}
