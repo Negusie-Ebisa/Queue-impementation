@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 #define SIZE 5
 int A[SIZE];
 int front = -1;
@@ -59,7 +58,7 @@ void displayQueue()
 } 
 int main()
 {
- //inserting elements in queue
+//inserting elements in queue
  cout<<"Inserting elements in queue\n";
  enqueue(2);
  displayQueue();
@@ -71,11 +70,10 @@ int main()
  displayQueue();
  enqueue(8);
 displayQueue();
- // queue is full
+ //queue is full
  enqueue(9);
  //show element at front
  showfront();
-
  cout<<"Removing elements from queue\n";
  //removing elements from the queue
  dequeue();
@@ -87,6 +85,5 @@ displayQueue();
  dequeue();
  displayQueue();
  dequeue();
-
  return 0;
 }
