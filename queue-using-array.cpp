@@ -70,3 +70,23 @@ int main()
  enqueue(7);
  displayQueue();
  enqueue(8);
+displayQueue();
+ // queue is full
+ enqueue(9);
+ //show element at front
+ showfront();
+
+ cout<<"Removing elements from queue\n";
+ //removing elements from the queue
+ dequeue();
+ displayQueue();
+ dequeue();
+ displayQueue();
+ dequeue();
+ displayQueue();
+ dequeue();
+ displayQueue();
+ dequeue();
+
+ return 0;
+}
