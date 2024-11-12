@@ -16,31 +16,32 @@ bool isempty()
 //function to insert element in queue
 void enqueue ( int value )
 {
- if (rear == SIZE-1)
+ if (rear == SIZE-1)// check if queue is full
   cout<<"Queue is full \n";
  else
  {
-  if( front == -1)
+  if( front == -1) 
    front = 0;
+  
   rear++;
-  A[rear] = value;
+  A[rear] = value;// insert the value at the rear of the queue
  }
 }
 //function to remove element from queue
 void dequeue ( )
 {
- if( isempty() )
+ if( isempty() )// check if the queue empty
   cout<<"Queue is empty\n";
  else
- if( front == rear )
+ if( front == rear )// if only one element is in the queue, reset front and rear
   front = rear = -1;
  else
-  front++;
+  front++;// increment the front pointer
 }
 //function to display element at front
 void showfront( )
 {
- if( isempty())
+ if( isempty()) 
   cout<<"Queue is empty\n";
  else
   cout<<"element at front is:"<<A[front]<<"\n";
