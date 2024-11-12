@@ -45,3 +45,15 @@ void showfront( )
  else
   cout<<"element at front is:"<<A[front]<<"\n";
 }
+//function to display elements of the queue
+void displayQueue()
+{
+ if(isempty())
+  cout<<"Queue is empty\n";
+ else
+ {
+  for( int i=front ; i<= rear ; i++)
+   cout<<A[i]<<" ";
+  cout<<"\n";
+ }
+}
