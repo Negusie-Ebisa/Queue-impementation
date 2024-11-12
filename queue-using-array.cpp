@@ -56,4 +56,17 @@ void displayQueue()
    cout<<A[i]<<" ";
   cout<<"\n";
  }
-}
+} 
+int main()
+{
+ //inserting elements in queue
+ cout<<"Inserting elements in queue\n";
+ enqueue(2);
+ displayQueue();
+ enqueue(3);
+ displayQueue();
+ enqueue(5);
+ displayQueue();
+ enqueue(7);
+ displayQueue();
+ enqueue(8);
