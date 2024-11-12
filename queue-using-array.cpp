@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-#define SIZE 5
-int A[SIZE];
+#define SIZE 5 
+// define the maximum size of the queue
+int A[SIZE];//Declare an array to store the que
 int front = -1;
 int rear = -1;
 //function to check if queue is empty
