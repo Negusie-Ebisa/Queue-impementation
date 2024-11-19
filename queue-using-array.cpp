@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#define SIZE 5 
+#define SIZE 5 //static size
 // define the maximum size of the queue
 int A[SIZE];//Declare an array to store the que
 int front = -1;
