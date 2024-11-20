@@ -1,3 +1,4 @@
+/*Queue implementation for all operation(Enqueue, Dequeue and Display)*/
 #include <iostream>
 using namespace std;
 #define SIZE 5 //static size
